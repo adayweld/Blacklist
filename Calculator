@@ -1,0 +1,19 @@
+Public Class Form1
+    Dim num1 As Integer
+    Dim num2 As Integer
+    Dim answer As Integer
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        End
+    End Sub
+
+    Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
+        num1 = txtNum1.Text
+        num2 = txtNum2.Text
+
+        answer = num1 + num2
+
+        lblAnswer.Text = answer
+
+    End Sub
+End Class
